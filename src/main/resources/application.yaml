@@ -5,3 +5,7 @@ spring:
     password: admin
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
+  liquibase:
+    enabled: true
+    default-schema: dev_schema
+    change-log: classpath:db/changelog/db.changelog-master.yaml

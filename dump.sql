@@ -12,11 +12,11 @@ LIMIT 0, 1000
 
 -- Date: 2022-02-10 07:20
 */
-INSERT INTO `` (`suburb_id`,`suburb_name`,`postcode`) VALUES (6,'Tambaram',600045);
-INSERT INTO `` (`suburb_id`,`suburb_name`,`postcode`) VALUES (7,'Chrompet',600044);
-INSERT INTO `` (`suburb_id`,`suburb_name`,`postcode`) VALUES (8,'Pallavaram',600043);
-INSERT INTO `` (`suburb_id`,`suburb_name`,`postcode`) VALUES (9,'Taramani',600042);
-INSERT INTO `` (`suburb_id`,`suburb_name`,`postcode`) VALUES (10,'Vandalur',600034);
-INSERT INTO `` (`suburb_id`,`suburb_name`,`postcode`) VALUES (11,'Guduvanchery',600035);
-INSERT INTO `` (`suburb_id`,`suburb_name`,`postcode`) VALUES (12,'Urappakkam',600032);
-INSERT INTO `` (`suburb_id`,`suburb_name`,`postcode`) VALUES (13,'Potheri',600031);
+INSERT INTO `suburb_details_1` (`suburb_id`,`suburb_name`,`postcode`) VALUES (6,'Tambaram',600045);
+INSERT INTO `suburb_details_1` (`suburb_id`,`suburb_name`,`postcode`) VALUES (7,'Chrompet',600044);
+INSERT INTO `suburb_details_1` (`suburb_id`,`suburb_name`,`postcode`) VALUES (8,'Pallavaram',600043);
+INSERT INTO `suburb_details_1` (`suburb_id`,`suburb_name`,`postcode`) VALUES (9,'Taramani',600042);
+INSERT INTO `suburb_details_1` (`suburb_id`,`suburb_name`,`postcode`) VALUES (10,'Vandalur',600034);
+INSERT INTO `suburb_details_1` (`suburb_id`,`suburb_name`,`postcode`) VALUES (11,'Guduvanchery',600035);
+INSERT INTO `suburb_details_1` (`suburb_id`,`suburb_name`,`postcode`) VALUES (12,'Urappakkam',600032);
+INSERT INTO `suburb_details_1` (`suburb_id`,`suburb_name`,`postcode`) VALUES (13,'Potheri',600031);
