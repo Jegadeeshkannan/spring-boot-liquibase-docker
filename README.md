@@ -9,12 +9,12 @@ This application used to save the Suburban details to MySQL DB and find the rang
   [   
         {
             
-            "suburbName": "Guindy",
-            "postcode": 600036
+            "suburbName": "DAGGAR HILLS,WA",
+            "postcode": 6638
         },
         {
-            "suburbName": "Thirisulam",
-            "postcode": 600035
+            "suburbName": "LAKE POWELL,VIC",
+            "postcode": 3597
         }
        
  ]
