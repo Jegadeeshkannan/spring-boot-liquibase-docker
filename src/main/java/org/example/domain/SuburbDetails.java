@@ -4,6 +4,11 @@ package org.example.domain;
 
 import javax.persistence.*;
 
+/**
+ * This Object Relational Mapping file for the suburb_details table.
+ * This file will have the suburb details attributes to perform the CRUD operation on this table
+ * The suburb_id will be the auto generated id for this table.
+ */
 
 @Entity
 @Table(name="suburb_details",schema = "dev_schema")
