@@ -12,11 +12,21 @@ public class SuburbDetailsService {
     @Autowired
     private SuburbRepository suburbRepository;
 
+    /**
+     *
+     * @param startPostCode
+     * @param endPostCode
+     * @return
+     */
     public List<SuburbDetails> getAllSuburbsForPostCodeRange(long startPostCode, long endPostCode){
         List<SuburbDetails> suburbDetailsList = suburbRepository.findByPostcodeBetween(startPostCode,endPostCode);
         return suburbDetailsList;
     }
 
+    /**
+     *
+     * @param suburbDetailsList
+     */
     public void saveSuburbDetails(List<SuburbDetails> suburbDetailsList) {
         suburbRepository.saveAll(suburbDetailsList);
     }

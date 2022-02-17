@@ -1,3 +1,5 @@
+# This is the master configuration yaml for the DB migration , here we have to add the sql files
+# to run the DDL and DML queries once when booting up the application
 databaseChangeLog:
   - include:
       file: db/changelog/db.changelog-create.sql

@@ -1,4 +1,3 @@
-
 CREATE TABLE `suburb_details` (
 `suburb_id` int unsigned NOT NULL AUTO_INCREMENT,
 `suburb_name` varchar(45) DEFAULT NULL,
