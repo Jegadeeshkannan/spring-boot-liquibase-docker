@@ -25,6 +25,7 @@ This application used to save the Suburban details to MySQL DB and find the rang
  
  localhost:8080/v1/suburb/suburblist/600033/600042
  
+ 
  {
     "sortedListBySuburbNames": [
         {
@@ -68,6 +69,7 @@ This application used to save the Suburban details to MySQL DB and find the rang
             "postcode": 600041
         }
     ],
+    
     "combinedSuburbNameLength": 72
 }
  
