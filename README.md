@@ -9,12 +9,12 @@ This application used to save the Suburban details to MySQL DB and find the rang
   [   
         {
             
-            "suburbName": "Guindy",
-            "postcode": 600036
+            "suburbName": "DAGGAR HILLS,WA",
+            "postcode": 6638
         },
         {
-            "suburbName": "Thirisulam",
-            "postcode": 600035
+            "suburbName": "LAKE POWELL,VIC",
+            "postcode": 3597
         }
        
  ]
@@ -23,53 +23,22 @@ This application used to save the Suburban details to MySQL DB and find the rang
 
 
  
- localhost:8080/v1/suburb/suburblist/600033/600042
+localhost:8080/v1/suburb/suburblist/4805/4860
  
  {
     "sortedListBySuburbNames": [
         {
-            "suburbId": 8,
-            "suburbName": "EastTambaram",
-            "postcode": 600038
-        },
-        {
-            "suburbId": 7,
-            "suburbName": "Guduvanchery",
-            "postcode": 600039
-        },
-        {
-            "suburbId": 14,
-            "suburbName": "Guindy",
-            "postcode": 600036
-        },
-        {
-            "suburbId": 4,
-            "suburbName": "MEPZ",
-            "postcode": 600042
-        },
-        {
-            "suburbId": 9,
-            "suburbName": "Medavakkam",
-            "postcode": 600037
-        },
-        {
             "suburbId": 15,
-            "suburbName": "Thirisulam",
-            "postcode": 600035
+            "suburbName": "O'BRIENS HILL,QLD",
+            "postcode": 4860
         },
         {
-            "suburbId": 6,
-            "suburbName": "Urappakkam",
-            "postcode": 600040
-        },
-        {
-            "suburbId": 5,
-            "suburbName": "Vandalur",
-            "postcode": 600041
+            "suburbId": 13,
+            "suburbName": "QUEENS BEACH,QLD",
+            "postcode": 4805
         }
     ],
-    "combinedSuburbNameLength": 72
+    "combinedSuburbNameLength": 33
 }
- 
  
  
