@@ -6,6 +6,8 @@ This application used to save the Suburban details to MySQL DB and find the rang
   
   
   localhost:8080/v1/suburb/suburbDetail
+  
+  <img width="859" alt="image" src="https://user-images.githubusercontent.com/14888039/154524429-ec0b7d01-6ac8-4cb7-ae1f-4315f3414764.png">
   [   
         {
             
