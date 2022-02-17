@@ -27,6 +27,7 @@ This application used to save the Suburban details to MySQL DB and find the rang
  
 localhost:8080/v1/suburb/suburblist/4805/4860
  
+<img width="865" alt="image" src="https://user-images.githubusercontent.com/14888039/154525011-f6768541-d0cd-4425-b19b-8b8cad4e293f.png"> 
  {
     "sortedListBySuburbNames": [
         {
