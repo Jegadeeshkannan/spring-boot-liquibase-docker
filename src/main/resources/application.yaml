@@ -1,11 +1,11 @@
 spring:
   # This below configuration to enable the database connection with MySQL DB
-  datasource:
-    url: jdbc:mysql://localhost:3306/dev_schema
-    username: jegadeesh
-    password: admin
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5Dialect
+  #datasource:
+    #url: jdbc:mysql://localhost:3307/dev_schema?allowPublicKeyRetrieval=true&useSSL=false
+    #username: jegadeesh
+    #password: admin
+  #jpa:
+    #database-platform: org.hibernate.dialect.MySQL5Dialect
   # This below configuration to enable the liquibase database migration
   liquibase:
     enabled: true

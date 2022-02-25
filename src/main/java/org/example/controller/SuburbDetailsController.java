@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 /**
  * @author Jegadeesh
  * This controller provides REST endpoints to save the Suburban details to MySQL DB
- * and retrive the list of Suburban details for the given range of two post codes in an API endpoint
+ * and retrive the list of Suburban details for the given range of two post codes
  */
 @RestController
 @RequestMapping("v1/suburb")
@@ -37,7 +37,7 @@ public class SuburbDetailsController {
     }
 
     /**
-     * To Get the suburb names in alphabetical order for giveb post code ranges and get the combined string length of the suburb names
+     * To Get the suburb names in alphabetical order for given post code ranges and get the combined string length of the suburb names
      * @param startPostCode
      * @param endPostCode
      * @return responseDTO (This response dto will have the list of suburban details for given post codes)
