@@ -67,3 +67,6 @@ grant all privileges on *.* to 'jegadeesh'@'%' with grant option;
 flush privileges;
   
  <img width="662" alt="image" src="https://user-images.githubusercontent.com/14888039/155842045-cf0b07a2-a5d5-4c10-b981-387d0e1fff41.png">
+  
+  
+<img width="216" alt="image" src="https://user-images.githubusercontent.com/14888039/155842092-04a0cee6-79c6-4882-ae33-96e1929d6b0b.png">
