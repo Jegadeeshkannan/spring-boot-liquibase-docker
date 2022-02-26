@@ -63,4 +63,5 @@ mysql -u root -p
 The percent sign (%) means all ip's. Restart the docker container.
  
 grant all privileges on *.* to 'jegadeesh'@'%' with grant option;
+  
 flush privileges;
