@@ -47,4 +47,20 @@ localhost:8080/v1/suburb/suburblist/4805/4860
     "combinedSuburbNameLength": 33
 }
  
+ ## MYSQL workbench client to Connect MySQL that is hosted in Docker.
  
+ Please set the following grant permission using these below commands
+### List all containers and navigate to bin/bash of the MySQL container:
+
+docker ps
+
+docker exec -it <mysql container name> /bin/bash 
+  
+### Login as root user
+  
+mysql -u root -p
+  
+The percent sign (%) means all ip's. Restart the docker container.
+ 
+grant all privileges on *.* to 'jegadeesh'@'%' with grant option;
+flush privileges;
